@@ -1,0 +1,688 @@
+ 1  ls
+    2  ls
+    3  python3
+    4  mkdir -p ~/movie-recommender
+    5  cd ~/movie-recommender
+    6  nano app.py  # or use vim app.py
+    7  vim app.py
+    8  mkdir static~
+    9  mkdir static
+   10  cd static
+   11  vim index.html
+   12  vim style.css
+   13  vim script.js
+   14  cd ..
+   15  sudo apt update
+   16  sudo apt install python3-pip python3-venv -y
+   17  python3 -m venv venv
+   18  source venv/bin/activate
+   19  pip install flask pandas boto3
+   20  python app.py
+   21  cd ..
+   22  ls
+   23  mkdir -rf movie-recommender/
+   24  mkdir -rf movie-recommender
+   25  mkdir -r movie-recommender
+   26  mkdir -rm movie-recommender
+   27  rm -rf movie-recommender
+   28  ls
+   29  sudo su
+   30  apt-get update
+   31  apt install python3-pip -y
+   32  pip install flask pandas pickle5
+   33  python3 -m venv myenv
+   34  ~
+   35  python3 -m venv myenv
+   36  sudo apt install python3.12-venv -y
+   37  python3 -m venv myenv
+   38  source myenv/bin/activate
+   39  pip install flask pandas pickle5
+   40  pip install flask pandas
+   41  pip install --no-build-isolation pickle5
+   42  pip install setuptools
+   43  pip install --no-build-isolation pickle5
+   44  pip install --upgrade setuptools
+   45  ~
+   46  pip install --upgrade setuptools
+   47  pip install pickle5
+   48  sudo apt update && sudo apt upgrade -y
+   49  sudo apt install python3 python3-pip -y
+   50  pip3 install flask pandas pickle5
+   51  pip3 uninstall pickle5
+   52  import pickle
+   53  python3
+   54  ls
+   55  su root
+   56  ls
+   57  mkdir movie-recommender
+   58  sudo apt install awscli -y
+   59  sudo apt update && sudo apt upgrade -y
+   60  sudo apt install awscli -y
+   61  pip install boto3
+   62  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   63  unzip awscliv2.zip
+   64  sudo ./aws/install
+   65  sudo apt update && sudo apt install unzip -y
+   66  unzip awscliv2.zip
+   67  sudo ./aws/install
+   68  chmod +x ./aws/install
+   69  sudo ./aws/install
+   70  /usr/local/bin/aws --version
+   71  aws configure
+   72  aws s3 ls s3:moviesdataset1
+   73  aws s3 ls moviesdataset1
+   74  aws s3 cp s3://moviesdataset1/movie_recommender.pkl .
+   75  aws s3 cp s3://moviesdataset1/preprocessed_movies.csv .
+   76  aws s3 cp s3://moviesdataset1/movies.csv .
+   77  ls
+   78  cd /home/ubuntu
+   79  python3 -m venv myenv
+   80  source myenv/bin/activate
+   81  pip install flask pandas scikit-learn boto3
+   82  vim app.py
+   83  ls
+   84  source myenv/bin/activate
+   85  python3 app.py
+   86  free -m
+   87  sudo fallocate -l 2G /swapfile
+   88  sudo chmod 600 /swapfile
+   89  sudo mkswap /swapfile
+   90  sudo swapon /swapfile
+   91  echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
+   92  free -m
+   93  python3 app.py
+   94  python3 app.py --host=0.0.0.0 --port=5000
+   95  sudo fallocate -l 2G /swapfile
+   96  sudo chmod 600 /swapfile
+   97  sudo mkswap /swapfile
+   98  sudo swapon /swapfile
+   99  echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
+  100  free -m
+  101  python3 app.py --host=0.0.0.0 --port=5000
+  102  python3 app.py
+  103  python3
+  104  python3 app.py --host=0.0.0.0 --port=5000
+  105  ls
+  106  source myenv/bin/activate
+  107  python3 app.py --host=0.0.0.0 --port=5000
+  108  vim app.py
+  109  pkill -f app.py
+  110  python3 app.py --host=0.0.0.0 --port=5000
+  111  source myenv/bin/activate
+  112  vim app.py
+  113  python app.py
+  114  sudo lsof -i :5000
+  115  python app.py
+  116  sudo lsof -i :5000
+  117  python app.py
+  118  sudo kill -9 13674
+  119  python app.py
+  120  vim app.py
+  121  pkill -f app.py
+  122  python3 app.py --host=0.0.0.0 --port=5000
+  123  sudo lsof -i :5000
+  124  python3 app.py --host=0.0.0.0 --port=5000
+  125  python app.py
+  126  source myenv/bin/activate
+  127  python app.py
+  128  python3 app.py --host=0.0.0.0 --port=5000
+  129  pip install requests
+  130  python3 app.py --host=0.0.0.0 --port=5000
+  131  pip install flask_cors
+  132  python3 app.py --host=0.0.0.0 --port=5000
+  133  ls
+  134  cd movie-recommender
+  135  ls
+  136  vim index.html
+  137  vim styles.html
+  138  vim styles.css
+  139  vim script.js
+  140  sudo apt-update
+  141  apt-update
+  142  apt-get update
+  143  apt-get install nginx
+  144  sudo nano /etc/nginx/sites-available/moviesite
+  145  ls
+  146  sudo nano /etc/nginx/sites-available/moviesite
+  147  sudo ln -s /etc/nginx/sites-available/moviesite /etc/nginx/sites-enabled/
+  148  sudo nginx -t
+  149  nginx: configuration file /etc/nginx/nginx.conf test is successful
+  150  sudo systemctl restart nginx
+  151  nginx: configuration file /etc/nginx/nginx.conf test is successful
+  152  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  153  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  154  sudo nano /etc/nginx/nginx.conf
+  155  sudo ls -l /home/ubuntu/movie-recommender
+  156  drwxr-xr-x 2 www-data www-data 4096 Feb 23 20:20 /home/ubuntu/movie-recommender
+  157  sudo systemctl restart nginx
+  158  sudo systemctl status nginx.service
+  159  sudo nano /etc/nginx/nginx.conf
+  160  sudo nginx -t
+  161  sudo nano /etc/nginx/nginx.conf
+  162  sudo nginx -t
+  163  sudo systemctl restart nginx
+  164  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  165  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  166  nano /home/ubuntu/movie-recommender
+  167  sudo nano /etc/nginx/nginx.conf
+  168  ls -l /etc/nginx/sites-enabled/
+  169  sudo nano /etc/nginx/sites-enabled/your-site-file
+  170  sudo ln -s /etc/nginx/sites-available/your-site-file /etc/nginx/sites-enabled/
+  171  ls -l /etc/nginx/sites-enabled/
+  172  sudo rm /etc/nginx/sites-enabled/your-site-file
+  173  sudo ln -s /etc/nginx/sites-available/your-site-file /etc/nginx/sites-enabled/
+  174  ls -l /etc/nginx/sites-enabled/
+  175  sudo nginx -t
+  176  ls -l /etc/nginx/sites-available/
+  177  sudo nano /etc/nginx/sites-available/your-site-file
+  178  sudo ln -s /etc/nginx/sites-available/your-site-file /etc/nginx/sites-enabled/
+  179  sudo rm /etc/nginx/sites-enabled/your-site-file
+  180  sudo ln -s /etc/nginx/sites-available/your-site-file /etc/nginx/sites-enabled/
+  181  sudo nginx -t
+  182  sudo systemctl restart nginx
+  183  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  184  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  185  tail -f /var/log/nginx/error.log
+  186  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  187  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  188  sudo chmod 644 /home/ubuntu/movie-recommender/index.html
+  189  sudo chmod 644 /home/ubuntu/movie-recommender/favicon.ico
+  190  vim index.html
+  191  sudo systemctl restart nginx
+  192  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  193  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  194  ls
+  195  cat /homr/ubuntu/movie-recommender
+  196  cat /home/ubuntu/movie-recommender
+  197  sudo nano /etc/nginx/sites-available/moviesite
+  198  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  199  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  200  sudo chmod 644 /home/ubuntu/movie-recommender/index.html
+  201  sudo chmod 644 /home/ubuntu/movie-recommender/favicon.ico
+  202  vim index.html
+  203  sudo systemctl restart nginx
+  204  nano /etc/nginx/sites-available/moviesite
+  205  sudo chown -R www-data:www-data /home/ubuntu/movie-recommender
+  206  sudo chmod -R 755 /home/ubuntu/movie-recommender
+  207  sudo chmod 644 /home/ubuntu/movie-recommender/index.html
+  208  sudo chmod 755 /home/ubuntu/movie-recommender
+  209  sudo chown www-data:www-data /home/ubuntu/movie-recommender
+  210  sudo chmod 755 /home/ubuntu/movie-recommender
+  211  sudo chown www-data:www-data /home/ubuntu/movie-recommender
+  212  ls -l /etc/nginx/sites-enabled/
+  213  sudo ln -s /etc/nginx/sites-available/moviesite /etc/nginx/sites-enabled/
+  214  sudo rm /etc/nginx/sites-enabled/moviesite
+  215  sudo ln -s /etc/nginx/sites-available/moviesite /etc/nginx/sites-enabled/
+  216  sudo nginx -t
+  217  sudo systemctl restart nginx
+  218  source myenv/bin/activate
+  219  vim app.py
+  220  python3 app.py --host=0.0.0.0 --port=5000
+  221  pkill -f app.py
+  222  python3 app.py --host=0.0.0.0 --port=5000
+  223  vim app.py
+  224  pkill -f app.py
+  225  python3 app.py --host=0.0.0.0 --port=5000
+  226  app.run(host='0.0.0.0', port=5000, debug=True)
+  227  cd /home/ubuntu/movie-recommender
+  228  python3 app.py
+  229  lx
+  230  ls
+  231  source myenv/bin/activate
+  232  cd ..
+  233  source myenv/bin/activate
+  234  python app.py
+  235  sudo lsof -i :5000
+  236  sudo kill -9 14332
+  237  app.run(host='0.0.0.0', port=5001, debug=True)
+  238  python app.py
+  239  vim app.py
+  240  python app.py
+  241  vim app.py
+  242  python app.py
+  243  vim app.py
+  244  python app.py
+  245  vim app.py
+  246  rm app.py
+  247  vim app.py
+  248  python app.py
+  249  apt-get update
+  250  source myenv/bin/activate
+  251  python3 app.py --host=0.0.0.0 --port=5000
+  252  pkill -f app.py
+  253  python3 app.py --host=0.0.0.0 --port=5000
+  254  nohup python3 app.py &
+  255  ps aux | grep python
+  256  apt-get update
+  257  sudo nano /etc/nginx/sites-available/default
+  258  apt-get update
+  259  sudo systemctl stop nginx
+  260  sudo apt remove --purge nginx nginx-common nginx-full -y
+  261  sudo apt autoremove -y
+  262  sudo rm -rf /etc/nginx
+  263  sudo rm -rf /var/www/html
+  264  sudo apt update
+  265  sudo apt install nginx -y
+  266  sudo systemctl start nginx
+  267  sudo mv index.html /var/www/html/
+  268  sudo mv styles.css /var/www/html/
+  269  sudo mv script.js /var/www/html/
+  270  cd movie-recommender
+  271  ls
+  272  sudo mv index.html /var/www/html/
+  273  sudo mv styles.css /var/www/html/
+  274  sudo mv script.js /var/www/html/
+  275  vim script.js /var/www/html/
+  276  cd /var/www/html
+  277  ls
+  278  vim script.js
+  279  sudo nano /etc/nginx/sites-available/default
+  280  apt-get update
+  281  sudo nano /etc/nginx/sites-available/default
+  282  sudo nginx -t
+  283  sudo systemctl restart nginx
+  284  sudo netstat -tulnp | grep 5000
+  285  sudo nano /etc/nginx/sites-available/default
+  286  sudo nginx -t
+  287  sudo systemctl restart nginx
+  288  cd /var/www/html
+  289  ls -l
+  290  mkdir -p /var/www/html/static
+  291  mv /var/www/html/script.js /var/www/html/static/
+  292  mv /var/www/html/styles.css /var/www/html/static/
+  293  vim index.html
+  294  cd static
+  295  vim script.js
+  296  cd ..
+  297  vim index.html
+  298  cd static
+  299  vim script.js
+  300  cd
+  301  cd /var/www/html
+  302  vim index.html
+  303  cd static
+  304  vim script.js
+  305  pip install flask-cors
+  306  cd ..
+  307  ls
+  308  cd ubuntu
+  309  cd /home
+  310  cd /ubuntu
+  311  ls
+  312  cd ubuntu
+  313  ls
+  314  nano app.py
+  315  pkill -f app.py
+  316  python3 app.py
+  317  source myenv/bin/activate
+  318  pip install flask-cors
+  319  python3 app.py
+  320  vim app.p;y
+  321  vim app.py
+  322  python3 app.py
+  323  vim script.js /var/www/html/static
+  324  cd /var/www/html/static
+  325  ls
+  326  vim script.js
+  327  python3 app.py
+  328  cd ..
+  329  cd /home/ubuntu
+  330  python3 app.py
+  331  cd /var/www/html/static
+  332  ls
+  333  vim styles.css
+  334  vim script.js
+  335  rm script.js
+  336  vim script.js
+  337  cd /home/ubuntu
+  338  python3 app.py
+  339  vim app.py
+  340  python3 app.py
+  341  nohup python3 app.py > output.log 2>&1 &
+  342  vim app.py
+  343  python3 app.py
+  344  sudo lsof -i :5000
+  345  sudo kill -9 20683 20704
+  346  sudo lsof -i :5000
+  347  python3 app.py
+  348  source myenv/bin/activate
+  349  pthon app.py
+  350  python app.py
+  351  sudo lsof -i :5000
+  352  sudo kill -9 20717 20718
+  353  python app.py
+  354  vim app.py
+  355  python app.py
+  356  python3
+  357  vim app.py
+  358  python app.py
+  359  ps aux | grep python
+  360  flask run --host=0.0.0.0 --port=5000 --debug
+  361  vim app.py
+  362  python app.py
+  363  vim app.py
+  364  python app.py
+  365  vim app.py
+  366  python app.py
+  367  vim app.py
+  368  python app.py
+  369  nohup python app.py > flask.log 2>&1 &
+  370  ps aux | grep python
+  371  tail -f flask.log
+  372  curl http://127.0.0.1:5000/recommend?movie=Toy%20Story%20(1995)
+  373  curl "http://127.0.0.1:5000/recommend?movie=Toy%20Story%20(1995)"
+  374  python
+  375  vim app.py
+  376  python app.py
+  377  ls
+  378  rm -rf movie_recommender.pkl
+  379  ls
+  380  aws s3 cp s3://moviesdataset1/movie_recommender.pkl /home/ubuntu/
+  381  ls -lh /home/ubuntu/movie_recommender.pkl
+  382  pkill -f app.py  # Stop previous process
+  383  python3 app.py &  # Start API in the background
+  384  source myenv/bin/activate
+  385  python3 app.py &
+  386  pkill -f app.py
+  387  python3 app.py
+  388  sudo fuser -k 5000/tcp
+  389  python3 app.py
+  390  vim app.py
+  391  rm app.py
+  392  vim app.py
+  393  python3 app.py
+  394  aws s3 cp s3://moviesdataset1/train2nd.py /home/ubuntu/
+  395  ls -l /home/ubuntu/train2nd.py
+  396  python3 -c "import train2nd; print('✅ train2nd.py is found\!')"
+  397  vim app.py
+  398  rm app.py
+  399  vim app.py
+  400  pkill -f app.py
+  401  python3 app.py
+  402  source myenv/bin/activate
+  403  python3 app.py
+  404  pip install waitress
+  405  python3 app.py
+  406  apt-get update
+  407  ls
+  408  source venv/bin/activate
+  409  source myenv/bin/activate
+  410  ls
+  411  python app.py
+  412  vim app.py
+  413  sudo lsof -i :5000
+  414  sudo kill -9 21025 21828
+  415  python app.py
+  416  vim app.py
+  417  python app.py.
+  418  python app.py
+  419  ls -lh movie_recommender.pkl
+  420  python
+  421  vim loader.py
+  422  python load_model.py
+  423  ls
+  424  python loader.py
+  425  ls -lh movie_recommender.pkl
+  426  rm movie_recommender.pkl
+  427  vim savemodel.py
+  428  python save_model.py
+  429  python savemodel.py
+  430  ls -lh movie_recommender.pkl
+  431  python
+  432  source myenv/bin/activate
+  433  vim app.py
+  434  rm app.py
+  435  vim app.py
+  436  pkill -f app.py
+  437  python3 app.py
+  438  source myenv/bin/activate
+  439  rm app.py
+  440  vim app.py
+  441  python3 app.py
+  442  apt-get update
+  443  python
+  444  python3
+  445  pip install scikit-learn
+  446  source myenv/bin/activate
+  447  pip install scikit-learn
+  448  python -c "import sklearn; print(sklearn.__version__)"
+  449  python3
+  450  source myenv/bin/activate
+  451  python --version
+  452  which python
+  453  which pip
+  454  pip install scikit-learn
+  455  pip install --break-system-packages scikit-learn
+  456  python3 app.py
+  457  vim app.py
+  458  python
+  459  vim app.py
+  460  python app.py
+  461  python3
+  462  vim app.py
+  463  rm app.py
+  464  vim app.py
+  465  rm movie_recommender.pkl  # Remove old model
+  466  python3 train_model.py  # Retrain the model
+  467  rm movie_recommender.pkl
+  468  python3 train_model.py
+  469  ls
+  470  ls -lh /home/ubuntu/movie_recommender.pkl
+  471  aws s3 cp s3://moviesdataset1/movie_recommender.pkl /home/ubuntu/
+  472  vim test.py
+  473  python test.py
+  474  source myenv/bin/activate
+  475  rm test99.py
+  476  vim test99.py
+  477  python3 test99.py
+  478  ls
+  479  rm test.py
+  480  vim app.py
+  481  rm app.py
+  482  vim app.py
+  483  python3 app.py
+  484  l
+  485  cd /var/www/html
+  486  ls
+  487  cat index.html
+  488  cd static
+  489  rm script.js
+  490  vim script.js
+  491  rm script.js
+  492  vim script.js
+  493  tail -f nohup.out
+  494  cd /home/ubuntu
+  495  tail -f nohup.out
+  496  cd /var/www/html
+  497  cd static
+  498  rm script.js
+  499  vim script.js
+  500  pip install flask-cors
+  501  source myenv/bin/activate
+  502  cd /home/ubuntu
+  503  source myenv/bin/activate
+  504  pip install flask-cors
+  505  vim app.py
+  506  nohup python app.py &
+  507  vim app.py
+  508  cd /var/www/html
+  509  cd static
+  510  rm script.js
+  511  vim script.js
+  512  cd ..
+  513  cat index.html
+  514  cd static
+  515  rm script.js
+  516  vim script.js
+  517  cd /home/ubuntu
+  518  source myenv/bin/activate
+  519  vim app.py
+  520  cd /var/www/html
+  521  cd static
+  522  vim script.js
+  523  rm script.js
+  524  vim script.js
+  525  source venv/bin/activate
+  526  source myenv/bin/activate
+  527  rm app.py
+  528  vim app.py
+  529  python app.py
+  530  vim test99.py
+  531  python test99.py
+  532  vim test99.py
+  533  source myenv/bin/activate
+  534  ls
+  535  rm test99.py
+  536  vim test99.py
+  537  python3 test99.py
+  538  vim test99.py
+  539  python3 test99.py
+  540  rm test99.py
+  541  vim test99.py
+  542  python3 test99.py
+  543  rm test99.py
+  544  vim test99.py
+  545  python test99.py
+  546  python3 test99.py
+  547  vim test.py
+  548  python2 test.py
+  549  python3 test.py
+  550  cat test.py
+  551  vim test.py
+  552  python3 test.py
+  553  vim app.py
+  554  rm app.py
+  555  vim app.py
+  556  python3 app.py
+  557  source myenv/bin/activate
+  558  python3 app.py
+  559  sudo journalctl -u flask --no-pager | tail -20
+  560  vim app.py
+  561  python3 app.py
+  562  vim app.py
+  563  rm app.py
+  564  vim app.py
+  565  python3 app.py
+  566  sudo systemctl restart flask
+  567  sudo journalctl -u flask --no-pager | tail -20
+  568  python3 app.py
+  569  nohup python app.py &
+  570  source myenv/bin/activate
+  571  vim app.py
+  572  python app.py
+  573  vim app.py
+  574  python app.py
+  575  mkdir original
+  576  mv app.py /original
+  577  ls
+  578  vim app.py
+  579  python app.py
+  580  nohup python app.py &
+  581  cd /var/www/html
+  582  vim index.html
+  583  cd static
+  584  ls
+  585  cat styles.css
+  586  cat script.js
+  587  cd /home/ubuntu
+  588  ls
+  589  cat train2nd.py
+  590  cat app.py
+  591  cd /var/www/html
+  592  ls
+  593  vim index.html
+  594  cd static
+  595  ls
+  596  vim styles.css
+  597  rm styles.css
+  598  vim styles.css
+  599  ls
+  600  cd ..
+  601  chmod 777 /var/www/html
+  602  chmod 777 /var/www/html/static
+  603  vim index.html
+  604  vim styles.css
+  605  ls
+  606  rm styles.css
+  607  cd static
+  608  ls
+  609  vim styles.css
+  610  cd ..
+  611  ls
+  612  vim index.nginx-debian.html
+  613  ls
+  614  cat index.html
+  615  cd static
+  616  ls
+  617  cat styles.css
+  618  cat script.js
+  619  cat styles.css
+  620  sudo systemctl restart nginx
+  621  vim styles.css
+  622  rm styles.css
+  623  vim styles.css
+  624  cd /home/ubuntu
+  625  cat train2nd.py
+  626  cd /var/www/html/static
+  627  cat script.js
+  628  cd /home/ubuntu
+  629  cat train2nd.py
+  630  cat app.py
+  631  source myenv/bin/activate
+  632  pyhon app.py
+  633  ls
+  634  python app.py
+  635  cat test99.py
+  636  cat test2nd.py
+  637  cat train2nd.py
+  638  python app.py
+  639  source myenv/bin/activate
+  640  nohup python app.py &
+  641  source myenv/bin/activate
+  642  nohup python app.py &
+  643  python app.py
+  644  cat train2nd.py
+  645  python app.py
+  646  nohup python app.py &
+  647  ls
+  648  pythin train2nd.py
+  649  python train2nd.py
+  650  cat train2nd.py
+  651  aws s3 cp s3://moviesdataset1/movie_recommender.pkl /home/ubuntu/
+  652  df -h
+  653  du -ah / | sort -rh | head -20
+  654  ls -l
+  655  rm movie_recommender.pkl
+  656  aws s3 cp s3://moviesdataset1/movie_recommender.pkl /home/ubuntu/
+  657  aws s3 cp s3://moviesdataset1/movies.csv /home/ubuntu/
+  658  python app.py
+  659  cat app.py
+  660  cat train2nd.py
+  661  source myenv/bin/activate
+  662  rm app.py
+  663  vim app.py
+  664  python app.py
+  665  pip install rapidfuzz
+  666  python app.py
+  667  python
+  668  vim new.py
+  669  python new.py
+  670  python app.py
+  671  python
+  672  rm new.py
+  673  vim new.py
+  674  python new.py
+  675  rm new.py
+  676  vim new.py
+  677  python new.py
+  678  vim new.py
+  679  python new.py
+  680  python app.py
+  681  python
+  682  python train2nd.py
+  683  python app.py
+  684  rm app.py
+  685  vim app.py
+  686  python app.py
+  687  nohup python app.py &
+  688  history

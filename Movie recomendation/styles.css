@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100svh; /* Changed from height: 100svh */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('bg.jpg') no-repeat center center/cover;
+  animation: fadeIn 1.5s ease-in-out;
+  overflow-y: auto; /* Allow scrolling when content exceeds screen */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 50%; /* Allows it to grow */
+  padding-bottom: 20px; /* Prevents cut-off content */
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: auto; /* Allows the box to grow dynamically */
+  max-height: 70%; /* Prevents excessive expansion */
+  width: 50%;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.search-box h1 {
+  font-size: 24px;
+}
+
+#movie-input {
+  padding: 12px;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#movie-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 60%;
+  max-width: 320px;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+button:hover {
+  background-color: #0056b3;
+  opacity: 0.8;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  opacity: 0;
+  animation: fadeIn 2.5s ease-in-out forwards;
+  padding-bottom: 20px; /* Prevents content overflow */
+}
+
+.movie {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-in-out forwards;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 1024px) {
+  .container {
+      width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-box {
+      width: 95%;
+      padding: 15px;
+  }
+  
+  .search-box h1 {
+      font-size: 22px;
+  }
+
+  #movie-input, button {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-box h1 {
+      font-size: 18px;
+  }
+
+  #movie-input, button {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .movie {
+      max-width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

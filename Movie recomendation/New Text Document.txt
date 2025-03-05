@@ -1,0 +1,66 @@
+  1  sudo apt update && sudo apt install -y python3-pip python3-venv awscli unzip nginx
+    2  sudo apt-get update
+    3  aws configure
+    4  sudo apt install -y awscli
+    5  aws configure
+    6  apt install awscli
+    7  aws configure
+    8  apt install awscli
+    9  aws configure
+   10  sudo apt install -y curl unzip
+   11  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   12  unzip awscliv2.zip
+   13  sudo ./aws/install
+   14  aws configure
+   15  aws s3 cp s3://moviesdataset1/movies.csv .
+   16  ls
+   17  vim test2nd.py
+   18  rm test2nd.py
+   19  vim train2nd.py
+   20  python train2nd.py
+   21  apt-get install python3
+   22  python train2nd.py
+   23  python3 train2nd.py
+   24  pip3 install numpy
+   25  apt install python3-pip
+   26  python3 -m venv myenv
+   27  source myenv/bin/activate
+   28  pip install flask pandas boto3 scikit-learn flask_cors
+   29  sudo apt update && sudo apt install -y python3-venv
+   30  python3 -m venv myenv
+   31  source myenv/bin/activate
+   32  pip install flask pandas boto3 scikit-learn flask_cors
+   33  python train2nd.py
+   34  cat train2nd.py
+   35  python train2nd.py
+   36  sudo fallocate -l 2G /swapfile
+   37  sudo chmod 600 /swapfile
+   38  sudo mkswap /swapfile
+   39  sudo swapon /swapfile
+   40  echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
+   41  free -m
+   42  python train2nd.py
+   43  curl "http://localhost:5000/recommend?movie=Inception"
+   44  python train2nd.py
+   45  aws s3 cp s3://moviesdataset1/movie_recommender.pkl .
+   46  df -h
+   47  sudo du -ah / --max-depth=1 | sort -rh | head -20
+   48  rm -rf /home/ubuntu/*.log
+   49  rm -rf /home/ubuntu/*.zip
+   50  rm -rf /home/ubuntu/.cache/*
+   51  aws s3 cp s3://moviesdataset1/movie_recommender.pkl .
+   52  sudo rm -rf /var/lib/snapd/cache/*
+   53  aws s3 cp s3://moviesdataset1/movie_recommender.pkl .
+   54  sudo apt-get autoremove -y
+   55  sudo apt-get clean
+   56  sudo apt-get autoclean
+   57  ls
+   58  rm movie_recommender.pkl
+   59  aws s3 cp s3://moviesdataset1/movie_recommender.pkl .
+   60  vim app.py
+   61  python app.py
+   62  pip install requests
+   63  python app.py
+   64  ls
+   65  pip install waitress
+   66  python app.py
